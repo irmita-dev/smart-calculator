@@ -1,20 +1,34 @@
-# 🧮 Smart Calculator (Python)
+<!-- Banner -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/irmita-dev/smart-calculator/refs/heads/main/smart-calculator-irmita-dev.png" width="100%">
+</p>
 
-A clean, modular, fully tested command-line calculator built with Python.  
-Designed using best practices: separation of concerns, readable architecture, and unit testing with `pytest`.
+<h1 align="center">🧮 Smart Calculator (Python)</h1>
+
+<p align="center">
+A clean, modular and fully tested command-line calculator built with Python.<br>
+Follows clean code principles, separation of concerns and uses <strong>pytest</strong> for unit testing.
+</p>
 
 ---
 
 ## 🚀 Features
-- Modular architecture (`src/operations.py`, `src/utils.py`, `src/calculator.py`)
-- Supports core math operations:
-  - Addition (+), Subtraction (-), Multiplication (*), Division (/)
-  - Power (**)
-  - Percentage (x % y)
-- Full input validation & error handling
-- Interactive CLI interface
-- 100% tested math operations using **pytest**
-- Easy to extend with new operations
+
+- Clean, modular architecture:
+  - `src/operations.py`
+  - `src/utils.py`
+  - `src/calculator.py`
+- Supports the following operations:
+  - ➕ Addition (`a + b`)
+  - ➖ Subtraction (`a - b`)
+  - ✖️ Multiplication (`a * b`)
+  - ➗ Division (`a / b`)
+  - 🔼 Power (`a ** b`)
+  - 📊 Percentage (`a % b`)
+- Full input validation + helpful error messages
+- Interactive user-friendly CLI
+- 100% tested mathematical operations using **pytest**
+- Easy to extend with new functionality
 
 ---
 
@@ -25,6 +39,7 @@ smart_calculator/ │ ├── src/ │ ├── calculator.py │ ├── o
 ---
 
 ## 🧪 Running Tests
+
 Install dependencies:
 
 ```bash
@@ -34,16 +49,22 @@ Run all tests:
 
 pytest
 
-Expected result: all tests pass ✔️
+Expected result:
+
+=== 7 passed in X.XXs ===
+
+✔ All tests should pass.
 
 
 ---
 
-▶️ Run the Calculator
+▶️ Running the Calculator
+
+Run the CLI application:
 
 python3 main.py
 
-Example:
+Example session:
 
 Smart Calculator
 Type expressions like '10 + 5' or '200 % 10'
@@ -66,7 +87,7 @@ Pytest
 
 Modular Architecture
 
-Clean Code practices
+Clean Code Principles
 
 
 
@@ -76,9 +97,11 @@ Clean Code practices
 
 Add scientific functions (sin, cos, sqrt…)
 
-Add calculation history
+Add command history
 
-Add GUI version (Tkinter or React front-end)
+Implement optional GUI version (Tkinter or React frontend)
+
+Add logging and configuration file
 
 
 
@@ -87,4 +110,6 @@ Add GUI version (Tkinter or React front-end)
 👩‍💻 Author
 
 Irmita Dev
-Python Developer | Clean Code | Always learning & building
+Python Developer · Clean Code · Always Learning & Building
+
+---
